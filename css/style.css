@@ -247,10 +247,9 @@ footer {
 	header h1, small{
 		font-size: 1em;
 		width: auto;
-		color: green;
 	}
 	header img{
-		float:left;
+		float: left;
 		width: auto;
 	}
 	p{
@@ -262,21 +261,26 @@ footer {
 	}
 	ul{
 		position:relative;
-		width: 250px;
 		top: -50px;
 		font-size: 1.2em;
 	}
 	
 	.page{
-		font-size: 0.6em;
+		font-size: 0.5em;
 	}
-	.one, .two , .three{
-		margin: 0 0 0 0;
-		padding: 0 0 0 0;
+	.two{
+		background-size: 50% 30%;
+		background-position: center;
+	}
+	.two .page-container h2{
+		font-size: 2em;
+	}
+	.two .page-container p{
+		font-size: 1.5em;
 	}
 	
 	#campus{
-		font-size: 2em;
+		font-size: 1.5em;
 		width: 450px;
 	}
 	#pt{
@@ -287,6 +291,9 @@ footer {
 	small{
 		width: 500px;
 		font-size: 10px;
+	}
+	.three{
+		background-size: 40% 50%;
 	}
 	.three .page-container .col-4{
 			width: 26%;
